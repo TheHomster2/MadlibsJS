@@ -120,4 +120,5 @@ h2{
 .text{
 	background-color: black;
 	grid-column: span 2;
+	align:center;
 }
