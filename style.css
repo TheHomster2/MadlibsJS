@@ -14,15 +14,41 @@ body{
 }
 
 .tab {
-	/*overflow: hidden;*/
-	max-width: 250px;
+	max-width: auto;
 	text-align: center;
+	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .active{
-	padding: 5px;
-	border: 2px solid black;
-	font-size: 25px;
+	padding: 10px;
+	border: 5px solid black;
+	border-radius: 200px;
+	font-size: 30px;
+}
+
+.mainp{
+	margin-top: 60px;
+	padding: 1px;
+	border-radius: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.container{
+	border: 0px solid rgba(0,0,0,0);
+	display: grid;
+	grid-template-rows: auto auto;
+}
+
+header{
+	border-radius: 100px;
+	background-color: skyblue;
+	padding: 0.5px;
+	font-size: 50px;
+
 }
