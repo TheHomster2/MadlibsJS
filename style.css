@@ -12,7 +12,7 @@ html {
 body{
 	background-color: gray;
 	font-family: "Times New Roman";
-	background-image: url(https://i.stack.imgur.com/jGlzr.png);
+	background-color: gray;
 }
 
 .tab {
@@ -55,7 +55,9 @@ header{
 }
 
 h2{
-	color: green;
+	color: black;
+	padding: 10px;
+	border: 10px solid lime;
 }
 
 .primary{
@@ -63,5 +65,10 @@ h2{
 	border: 2px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.secondary{
+	color: black;
+	padding: 10px;
+	border: 10px solid lime;
 }
 
