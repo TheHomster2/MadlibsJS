@@ -102,11 +102,22 @@ h2{
 	margin-right: auto;
 }
 
-.centered {
-    position: absolute;
-    top: 150px;
-    bottom: 560px;
-    left: 164px;
-    right: 542px
+.container {
+	max-width: 30%;
+	height: 90vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 10% 90%;
+}
+.container > div {
+	border: 1px solid black;
+	background-color: white;
+
 }
 
+.text{
+	background-color: black;
+	grid-column: span 2;
+}
