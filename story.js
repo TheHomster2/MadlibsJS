@@ -76,10 +76,7 @@ function select(story){
 
 document.querySelector('.generate').addEventListener('click', function(story){
 	// select the story first and it returns a string of text
-	select(story);
-
-	// parse through the string 
-	
+	document.getElementByID("container").innerHTML = select(story);
 
 });
 
