@@ -11,6 +11,7 @@ html {
 body{
 	background-color: gray;
 	font-family: "Times New Roman";
+	background-image: url(https://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg);
 }
 
 .tab {
@@ -23,16 +24,17 @@ body{
 }
 
 .active{
-	padding: 10px;
-	border: 5px solid black;
-	border-radius: 200px;
+	padding: 15px;
+	border: 5px solid skyblue;
 	font-size: 30px;
+	color: white;
 }
 
 .mainp{
 	margin-top: 60px;
 	padding: 1px;
 	border-radius: 100px;
+	border: 5px solid skyblue;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -48,7 +50,7 @@ body{
 header{
 	border-radius: 100px;
 	background-color: skyblue;
-	padding: 0.5px;
+	padding: 10px;
 	font-size: 50px;
 }
 
