@@ -71,11 +71,15 @@ function select(story){
 	return story[ran];
 }
 
-console.log(select(story));
+// test
+// console.log(select(story));
 
 document.querySelector('.generate').addEventListener('click', function(story){
 	// select the story first and it returns a string of text
 	select(story);
+
+	// parse through the string 
+	
 
 });
 
