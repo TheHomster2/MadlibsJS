@@ -86,23 +86,23 @@ document.querySelector('.generate').addEventListener('click', function(story){
 	}
 	// convert the HTML string to the innerHTML for the div class called text
 	// textboxes should have a limited number of character input
-	document.getElementByID(".frm1").innerHTML = str;	
+	document.querySelector("form").innerHTML = str;	
 });
 
-// function should store inputs somewhere... do you need to store the input values?
-// prints these inputs into the story
-// the enter button should be a submit button
+// // function should store inputs somewhere... do you need to store the input values?
+// // prints these inputs into the story
+// // the enter button should be a submit button
 
-document.querySelector('.enter').addEventListener('click', function(){
-	// access the form's id to retreieve the inputs
-	var x = document.getElementById("frm1");
-	// iterate through the form's array of inputs
-	for (var i = 0; i < x.length; i++){
-		x[i] = 
-	}
+// document.querySelector('.enter').addEventListener('click', function(){
+// 	// access the form's id to retreieve the inputs
+// 	var x = document.getElementById("frm1");
+// 	// iterate through the form's array of inputs
+// 	for (var i = 0; i < x.length; i++){
+// 		x[i] = 
+// 	}
 
-	document.getElementByID('words').value
-});
+// 	document.getElementByID('words').value
+// });
 
 
 
