@@ -112,10 +112,6 @@ document.querySelector('form').addEventListener('submit', function(event){
 
 });
 
-document.querySelector('form').addEventListener('submit', function(event){
-
-});
-
 
 
 
