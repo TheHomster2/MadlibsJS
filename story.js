@@ -78,35 +78,43 @@ document.querySelector('.generate').addEventListener('click', function(){
 	// given an HTML string 
 	var str = select(story);
 	// iterate through the string by words and replace 'num' with a random number value
-	document.querySelector('.generate').style.display="container";
 	var temp = '';
+	var counter = 1;
 	while (temp !== str) {
 		temp = str;
 		str = str.replace("'num'", Math.round(Math.random() * 16 + 2) + '');
+		str = str.replace("id='words'", "id='words" + counter + "'");
+		counter++;
 	}
 	// convert the HTML string to the innerHTML for the div class called text
 	// textboxes should have a limited number of character input
-	document.querySelector("form").innerHTML = str;	
+	document.querySelector("form").innerHTML = str + "<button type= 'submit' id='submit'>MADLIB</button>";
 });
 
 // // function should store inputs somewhere... do you need to store the input values?
 // // prints these inputs into the story
 // // the enter button should be a submit button
 
-// document.querySelector('.enter').addEventListener('click', function(){
-// 	// access the form's id to retreieve the inputs
-// 	var x = document.getElementById("frm1");
-// 	// iterate through the form's array of inputs
-// 	for (var i = 0; i < x.length; i++){
-// 		x[i] = 
-// 	}
-
-// 	document.getElementByID('words').value
-// });
+document.querySelector('form').addEventListener('submit', function(event){
+	event.preventDefault();
+	
+	var inputs = document.querySelectorAll('input');
 
 
+	for (var input of inputs){
+		var parent = input.parentNode;
+		var wrapper = document.createElement('span');
 
+		parent.replaceChild(wrapper, input);
 
+		wrapper.innerHTML = input.value;		
+	}
+
+});
+
+document.querySelector('form').addEventListener('submit', function(event){
+
+});
 
 
 
