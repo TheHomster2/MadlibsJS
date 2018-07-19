@@ -80,12 +80,18 @@ h2{
 	display: block;
 	border: 2px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-top: 50px;
+	
 }
 .secondary{
 	color: black;
 	padding: 10px;
-	border: 10px solid lime;
+	border: 10px solid black;
+}
+
+h3{
+	font-size: 40px;
+	margin-top: -550px;
 }
 .bg-wood {
 	background-image: url(https://i.stack.imgur.com/jGlzr.png);
