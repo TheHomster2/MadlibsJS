@@ -4,6 +4,8 @@
 html {
     box-sizing: border-box;
     background-color: : gray;
+  	margin: 0;
+    padding: 0;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -11,10 +13,9 @@ html {
 
 body{
 	font-family: "Times New Roman";
-<<<<<<< HEAD
 	background-color: gray;
-=======
->>>>>>> 2:56
+	margin: 0;
+    padding: 0;
 }
 
 .tab {
@@ -42,9 +43,9 @@ body{
 	border-radius: 100px;
 	/*border: 5px solid skyblue;*/
 	display: block;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 
@@ -60,49 +61,78 @@ body{
 
 header{
 	border-radius: 100px;
-	max-width: 50%;
+	max-width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	background-color: skyblue;
-	padding: 10px;
+	/*padding: 10px;*/
 	font-family: "Comic Sans MS";
-	font-size: 50px;
-}
-
-h2{
-	color: black;
-	padding: 10px;
-	border: 10px solid lime;
-}
-
-.primary{
-	display: block;
-	border: 2px;
-	margin-left: auto;
-	margin-right: 250px;
-	margin-top: 45px;
-	border: 10px solid black;
-	
-}
-.secondary{
-	color: black;
-	padding: 10px;
-	border: 10px solid black;
-	margin-left: 150px;
-	margin-top: -25px;
-}
-
-h3{
 	font-size: 40px;
-	margin-top: -550px;
 }
+
+.smoll{
+	font-size: 20px;	
+	padding-bottom: 5px;
+	text-align: center;
+	margin: 0;
+}
+
+.aboutt{
+	color: white;
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.divide{
+/*	border: 0px solid rgba(0,0,0,0);*/
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto auto;	
+	overflow: hidden;
+
+.howto{
+	color: white;
+	font-family: "Comic Sans MS";
+	background-color: #006994;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 25px;
+}
+
+.about{
+	color: white;
+	font-family: "Comic Sans MS";
+	background-color: #006994;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	border-radius: 25px;
+}
+
+.margint{
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+
+.aboutp{
+	text-indent: 5%;
+}
+
 .bg-wood {
 	background-image: url(https://i.stack.imgur.com/jGlzr.png);
 }
 
 .bg-new {
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
+}
+
+.bg-neon{
+	background-image: url(https://www.bypeople.com/wp-content/uploads/2015/11/animated-background-based.jpg);
 }
 
 .template{
@@ -117,9 +147,9 @@ h3{
 	height: 90vh;
 	margin-left: auto;
 	margin-right: auto;
-	display: grid;
+	display: none;
 	grid-template-columns: 30% 70%;
-	grid-template-rows: 10% 90%;
+	grid-template-rows: 15% 85%;
 }
 .container > div {
 	border: 1px solid black;
@@ -130,7 +160,6 @@ h3{
 .text{
 	background-color: black;
 	grid-column: span 2;
-	align:center;
 }
 
 .generate{}

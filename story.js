@@ -78,6 +78,7 @@ document.querySelector('.generate').addEventListener('click', function(){
 	// given an HTML string 
 	var str = select(story);
 	// iterate through the string by words and replace 'num' with a random number value
+	document.querySelector('.generate').style.display="container";
 	var temp = '';
 	while (temp !== str) {
 		temp = str;
