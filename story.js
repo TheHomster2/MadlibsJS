@@ -74,15 +74,14 @@ function select(story){
 // test
 // console.log(select(story));
 
-// given an HTML string 
-var str = select(story);
-
-document.querySelector('.generate').addEventListener('click', function(story){
+document.querySelector('.generate').addEventListener('click', function(){
+	// given an HTML string 
+	var str = select(story);
 	// iterate through the string by words and replace 'num' with a random number value
 	var temp = '';
 	while (temp !== str) {
 		temp = str;
-		str = str.replace('num>', Math.round(Math.random() * 16 + 3) + '>');
+		str = str.replace('num>', Math.round(Math.random() * 16) + '>');
 	}
 	// convert the HTML string to the innerHTML for the div class called text
 	// textboxes should have a limited number of character input
