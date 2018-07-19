@@ -29,7 +29,7 @@ body{
 .active{
 	padding: 10px;
 	border: 3px solid lavender;
-	border-radius: 20px;
+	border-radius: 30px;
 	font-weight: bold;
 	font-family: "Comic Sans MS";
 	font-size: 30px;
@@ -176,7 +176,7 @@ ol{
 	height: 90vh;
 	margin-left: auto;
 	margin-right: auto;
-	display: none;
+	display: grid;
 	grid-template-columns: 30% 70%;
 	grid-template-rows: 15% 85%;
 }
