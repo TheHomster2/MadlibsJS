@@ -80,13 +80,17 @@ h2{
 	display: block;
 	border: 2px;
 	margin-left: auto;
-	margin-top: 50px;
+	margin-right: 250px;
+	margin-top: 45px;
+	border: 10px solid black;
 	
 }
 .secondary{
 	color: black;
 	padding: 10px;
 	border: 10px solid black;
+	margin-left: 150px;
+	margin-top: -25px;
 }
 
 h3{
