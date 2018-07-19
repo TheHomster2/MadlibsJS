@@ -92,7 +92,7 @@ header{
 	min-height: 100vh;
 	grid-template-rows: auto auto;	
 	overflow: hidden;
-
+}
 .howto{
 	color: white;
 	font-family: "Comic Sans MS";
