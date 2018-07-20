@@ -155,20 +155,23 @@ ol{
 
 .bg-wood {
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+	/*background-repeat: no-repeat;*/
+	height: auto;
+/*	background-size: cover;
+*/}
 
 .bg-new {
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	height: auto;
+	/*background-size: cover;*/
 }
 
 .bg-neon{
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	height: auto;
+	/*background-size: cover;*/
 }
 
 .template{
@@ -314,4 +317,5 @@ ol{
 	.text{
 		font-size: 25px;
 	}
+
 }
