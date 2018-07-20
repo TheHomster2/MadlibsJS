@@ -88,7 +88,8 @@ document.querySelector('.generate').addEventListener('click', function(){
 	}
 	// convert the HTML string to the innerHTML for the div class called text
 	// textboxes should have a limited number of character input
-	document.querySelector("form").innerHTML = str + "<button type= 'submit' id='submit'>MADLIB</button>";
+	document.querySelector("form").innerHTML = str + "<button type= 'submit' id='submit'>SUBMIT ANSWER</button>";
+	
 });
 
 // // function should store inputs somewhere... do you need to store the input values?
