@@ -92,6 +92,7 @@ header{
 	grid-template-rows: auto auto;	
 	overflow: hidden;
 }
+
 .howto{
 	color: white;
 	font-family: "Comic Sans MS";
@@ -214,7 +215,7 @@ ol{
 .text{
 	background-color: black;
 	grid-column: span 2;
-	padding: 20px;
+	padding: 25px;
 	font-family: "Comic Sans MS";
 }
 
@@ -245,4 +246,9 @@ ol{
 	font-size: 20px;;
 }
 
-	
+.divide2{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto auto;	
+	overflow: hidden;
+}
