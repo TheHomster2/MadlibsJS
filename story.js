@@ -111,6 +111,8 @@ document.querySelector('form').addEventListener('submit', function(event){
 		wrapper.innerHTML = input.value;		
 	}
 
+	document.getElementById("frm2").innerHTML = "<input class='generate' type='button' value='Print this page' onClick='window.print()'>"
+
 });
 
 
