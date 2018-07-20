@@ -105,7 +105,7 @@ document.querySelector('form').addEventListener('submit', function(event){
 	for (var input of inputs){
 		var parent = input.parentNode;
 		var wrapper = document.createElement('span');
-
+		
 		parent.replaceChild(wrapper, input);
 
 		wrapper.innerHTML = input.value;		

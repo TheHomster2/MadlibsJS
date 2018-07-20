@@ -155,14 +155,20 @@ ol{
 
 .bg-wood {
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .bg-new {
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .bg-neon{
 	background-image: url(https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Desert_Game_Background_6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .template{
@@ -251,4 +257,61 @@ ol{
 	min-height: 100vh;
 	grid-template-rows: auto auto;	
 	overflow: hidden;
+}
+
+@media screen and (max-width: 750px){
+	header{
+		border-radius: 100px;
+		max-width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 60px;
+		background-color: #E6E6FA;
+		/*padding: 10px;*/
+		font-family: "Comic Sans MS";
+		font-size: 60px;
+	}
+
+	.tab{
+		margin-top: 60px;
+	}
+
+	.active{
+		padding: 10px;
+		border: 5px solid lavender;
+		border-radius: 30px;
+		font-weight: bold;
+		font-family: "Comic Sans MS";
+		font-size: 40px;
+		color: black;
+		margin: 10px;
+	}
+
+	.mainp{
+		margin-top: 40px;
+		padding: 1px;
+		border-radius: 100px;
+		/*border: 5px solid skyblue;*/
+		display: block;
+		margin-top: 70px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.generate{
+		margin-top: 10px;
+		font-size: 35px;
+	}
+
+	.But{
+		font-size: 35px;
+	}
+
+	#submit{
+		font-size: 35px;
+	}
+
+	.text{
+		font-size: 25px;
+	}
 }
