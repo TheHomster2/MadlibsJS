@@ -1,9 +1,19 @@
 # MadlibsJS
-### A Madlibs project using JavaScript
+### A Madlibs project using `HTML`, `CSS`, and `JavaScript`
 
-** You can start playing at: ** [https://thehomster2.github.io/MadlibsJS/index.html](https://thehomster2.github.io/MadlibsJS/index.html)
+**You can start playing at**: [https://thehomster2.github.io/MadlibsJS/index.html](https://thehomster2.github.io/MadlibsJS/index.html)
 
-MadlibsJS is based on a game called Madlibs and it was created using HTML, CSS, and JavaScript.
+## What is MadlibsJS? ##
+MadlibsJS is based on a game called Madlibs. Unlike previous versions of this game, with MadlibsJS, you are first given a random story. You will have textboxes to submit any answer! In MadlibsJS, there is no limit to whatever parts-of-speech you can use. However, the catch is that in each textbox you'll only have a number of characters you can type into the textbox. Be funny, be romantic, be whatever! Have fun and be creative!
 
-## The difference ##
+## Directions ##
+* Press the `Play Game` button to to start the game. (If you would like to know more, press the `About` button that leads to the About page).
+* Start writing by clicking `Create new madlib text` to generate the story. 
+* Write into the textboxes. If you can't type any more characters that means you hit the maximum length!
+* Click `Submit answer`.
+* Yay! You've reached the end of your Madlibs story. If you want to print out your work you can click `Print this page`.
+
+
+
+
 
